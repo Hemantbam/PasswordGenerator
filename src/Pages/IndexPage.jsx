@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import './HomePage.css'
-function HomePage() {
+import './IndexPage.css'
+function IndexPage() {
     const navigate = useNavigate()
 
     /**FUnction to handel the click event on the homepage */
@@ -22,4 +22,4 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default IndexPage
