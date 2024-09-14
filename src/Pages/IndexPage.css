@@ -43,6 +43,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     height: 250px;
+}
+
+@media screen and (max-width:440px) {
+    .headingContainer {
+        flex-direction: column;
+    }
+
+    img {
+        height: 150px;
+    }
 }
